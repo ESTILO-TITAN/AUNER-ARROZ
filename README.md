@@ -1,40 +1,41 @@
-# Auner Arroz
+# 🍚 Auner Arroz - Sistema de Restaurante
 
-🍚 Sistema de gestión para restaurante con app Android y sitio web.
+Sistema completo de gestión para restaurante con app Android y sitio web.
 
-## Estructura
+## 🌐 Enlaces
 
-```
-├── mobile/     # App React Native (Expo)
-└── web/        # Sitio web (React + Vite)
-```
+- **Sitio Web:** https://auner-arroz.netlify.app
+- **Repositorio:** https://github.com/ESTILO-TITAN/AUNER-ARROZ
 
-## Tecnologías
+## 📱 Tecnologías
 
-- **Frontend Mobile:** React Native + Expo
-- **Frontend Web:** React + Vite
+- **App Móvil:** React Native + Expo
+- **Sitio Web:** React + Vite
 - **Backend:** Supabase (Auth + Database)
-- **Media:** Cloudinary (imágenes/videos)
+- **Media:** Cloudinary
 - **Compilación APK:** EAS Build
 
-## Funcionalidades
+## 🔐 Credenciales Admin
 
-- 📱 App móvil para Android
-- 🍽️ Menú con platos e imágenes/videos
-- 🛒 Carrito de compras
-- 📲 Pedidos por WhatsApp
-- ⭐ Sistema de puntos (códigos 3 y 5 dígitos)
-- 👤 Panel de cliente
-- 🔧 Panel de administración completo
+- **Usuario:** `AUNER MASA`
+- **Contraseña:** `Arroz6000+2000`
 
-## Desarrollo
+## ⭐ Sistema de Puntos
+
+| Código              | Puntos    | Descripción |
+| ------------------- | --------- | ----------- |
+| 3 dígitos           | 50 pts    | Por comer   |
+| 5 dígitos           | 350 pts   | Por referir |
+| Mínimo para canjear | 6,000 pts |             |
+
+## 🛠️ Desarrollo Local
 
 ### App móvil
 
 ```bash
 cd mobile
 pnpm install
-pnpm start
+pnpm start  # Escanea QR con Expo Go
 ```
 
 ### Sitio web
@@ -45,13 +46,25 @@ pnpm install
 pnpm dev
 ```
 
-## Compilar APK
+## 📦 Compilar APK
 
 ```bash
 cd mobile
+eas login          # Inicia sesión en Expo
 eas build --platform android --profile preview
 ```
 
-## Licencia
+## 📁 Estructura
+
+```
+├── mobile/           # App React Native
+│   ├── src/screens/  # 17 pantallas
+│   ├── app.json      # Config Expo
+│   └── eas.json      # Config EAS Build
+├── web/              # Sitio Web
+└── supabase_schema.sql  # SQL tablas
+```
+
+## 📝 Licencia
 
 MIT
