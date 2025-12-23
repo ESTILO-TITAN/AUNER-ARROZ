@@ -2,7 +2,7 @@
 // Credenciales configuradas
 
 const SUPABASE_URL = "https://hseldgqfznfpaombplkm.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_kviBqWhyJwshuEiJ_6nwWA_yPs_L_a8";
+const SUPABASE_ANON_KEY = "sb_publishable_ijnAeydJE6mnWO7nNma41Q_DRl2SUDs";
 
 export { SUPABASE_URL, SUPABASE_ANON_KEY };
 
@@ -18,8 +18,8 @@ export const CLOUDINARY_CONFIG = {
   uploadPreset: "Aunerarroz", // Preset sin firmar
 };
 
-// WhatsApp del restaurante (ACTUALIZAR con número real)
-export const RESTAURANT_WHATSAPP = "+573001234567"; // Cambiar por el número real
+// WhatsApp del restaurante
+export const RESTAURANT_WHATSAPP = "+573137471549";
 
 // Sistema de puntos
 export const POINTS_CONFIG = {
